@@ -1,0 +1,22 @@
+2026-01-31 17:53:05,174 INFO com.revhire.ui.MainMenu [main] RevHire application started
+2026-01-31 17:53:42,510 INFO com.revhire.ui.MainMenu [main] Main menu option selected | choice=2
+2026-01-31 17:53:57,618 INFO com.revhire.ui.MainMenu [main] Login request from UI | email=niranjan@gmail.com
+2026-01-31 17:53:57,618 INFO com.revhire.service.AuthService [main] Login attempt | email=niranjan@gmail.com
+2026-01-31 17:53:57,654 INFO com.revhire.config.DBConnection [main] MySQL JDBC Driver loaded successfully
+2026-01-31 17:53:58,349 INFO com.revhire.dao.UserDAO [main] User login successful | userId=1, email=niranjan@gmail.com
+2026-01-31 17:53:58,355 INFO com.revhire.service.AuthService [main] Login successful | userId=1, role=JOB_SEEKER
+2026-01-31 17:53:58,355 INFO com.revhire.ui.MainMenu [main] Login successful | userId=1, role=JOB_SEEKER
+2026-01-31 17:53:58,365 INFO com.revhire.service.JobSeekerService [main] Job seeker dashboard started | userId=1, username=Niranjan
+2026-01-31 17:54:03,554 INFO com.revhire.service.JobSeekerService [main] Job seeker selected menu option | userId=1, choice=4
+2026-01-31 17:54:03,554 INFO com.revhire.service.JobSeekerService [main] Viewing applications | userId=1
+2026-01-31 17:54:03,620 INFO com.revhire.dao.ApplicationDAO [main] Fetching applications for userId=1
+2026-01-31 17:56:32,000 INFO com.revhire.service.JobSeekerService [main] Job seeker selected menu option | userId=1, choice=7
+2026-01-31 17:56:32,001 INFO com.revhire.service.JobSeekerService [main] Job seeker logged out | userId=1
+2026-01-31 17:56:35,526 INFO com.revhire.ui.MainMenu [main] Main menu option selected | choice=2
+2026-01-31 17:56:49,388 INFO com.revhire.ui.MainMenu [main] Login request from UI | email=praveen2gmail.com
+2026-01-31 17:56:49,390 INFO com.revhire.service.AuthService [main] Login attempt | email=praveen2gmail.com
+2026-01-31 17:56:49,514 WARN com.revhire.dao.UserDAO [main] Invalid login attempt | email=praveen2gmail.com
+2026-01-31 17:56:49,514 WARN com.revhire.service.AuthService [main] Invalid login credentials | email=praveen2gmail.com
+2026-01-31 17:56:49,516 WARN com.revhire.ui.MainMenu [main] Login failed | message=Invalid email or password
+2026-01-31 17:57:24,238 INFO com.revhire.ui.MainMenu [main] Main menu option selected | choice=5
+2026-01-31 17:57:24,239 INFO com.revhire.ui.MainMenu [main] Application exited by user
